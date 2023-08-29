@@ -17,3 +17,9 @@ Note : Before committing a file, we need to add it using git add, then only we c
 
 You can make a file using : touch fileName
 To add all the files use : git add -A           ;Use capital A only
+
+If we modify a file after adding it, then git status will show modified file. Also this
+modification is not added. To add them use : git add fileName .
+
+To commit directly use : git commit -m "commitMessage". Here also modified file will not
+get committed until it is added using above command.
