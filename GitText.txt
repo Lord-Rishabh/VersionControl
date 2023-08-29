@@ -1,0 +1,19 @@
+To check status for your project. Use : git status
+There are 4 stages : 
+    1. Untracked
+    2. Unmodified
+    3. Modified
+    4. Staged(committed)
+
+For converting file from stage 1 to 2. Use : git add fileName
+
+To commit a file, follow this steps : 
+1. git commit
+2. A vim editor will open. Then press 'i'
+3. Type your commit message
+4. Press ESC and type ':wq'.
+Note : Before committing a file, we need to add it using git add, then only we can commit
+       a file.
+
+You can make a file using : touch fileName
+To add all the files use : git add -A           ;Use capital A only
