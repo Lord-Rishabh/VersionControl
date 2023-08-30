@@ -1,4 +1,5 @@
 To check status for your project. Use : git status
+To check status with short message. Use : git status -s
 There are 4 stages : 
     1. Untracked
     2. Unmodified
@@ -16,7 +17,7 @@ Note : Before committing a file, we need to add it using git add, then only we c
        a file.
 
 You can make a file using : touch fileName
-To add all the files use : git add -A           ;Use capital A only
+To add all the files use : git add -A   ;Use capital A only
 
 If we modify a file after adding it, then git status will show modified file. Also this
 modification is not added. To add them use : git add fileName .
