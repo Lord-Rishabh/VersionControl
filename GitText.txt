@@ -23,3 +23,14 @@ modification is not added. To add them use : git add fileName .
 
 To commit directly use : git commit -m "commitMessage". Here also modified file will not
 get committed until it is added using above command.
+Now, To commit without adding file to staging area 
+use : git commit -a -m "Skipped staging area"
+
+
+If you want to see all commits that you made use : git log. In case you want to see last
+1 commits use : git log -p -1. And press q to quit this log.
+
+To compare the modified file with tracked(added) file we need to use : git diff.
+To compare the last tracked(added) file with last commit use : git diff --staged.
+
+
