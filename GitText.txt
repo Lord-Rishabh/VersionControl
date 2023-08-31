@@ -28,7 +28,8 @@ use : git commit -a -m "Skipped staging area"
 
 
 If you want to see all commits that you made use : git log. In case you want to see last
-1 commits use : git log -p -1. And press q to quit this log.
+3 commits use : git log -p -3. Use arrow keys to see next commit and press q to quit
+this log.
 
 To compare the modified file with tracked(added) file we need to use : git diff.
 To compare the last tracked(added) file with last commit use : git diff --staged.
@@ -36,4 +37,22 @@ To compare the last tracked(added) file with last commit use : git diff --staged
 To check status with short message. Use : git status -s
 green M : file is modified in staging area.
 red M : file is modified in working directory.
+
+To make hide or if you don't wanna track a file, make a fileusing : touch .gitignore ,
+don't make file without git.
+To ignore a file just type it's name in gitignore.
+To ignore a file only in root directory use : /fileName   in gitignore.
+To ignore all files of similar extension type use : *.extensionName    in gitignore.
+To ignore a whole folder use: folderName/    in gitignore.
+
+To discard changes and change your file to last commit use : git checkout fileName
+To discard changes and change all files to last commit use : git checkout -f
+To discard changes in working directory and change your file to staging
+    area use : git checkout -- fileName 
+
+Branches :-
+To create a new branch use : git branch branchName
+To see all the created branch use : git branch
+To switch to a particular branch use : git checkout branchName
+
 
