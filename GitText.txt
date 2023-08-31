@@ -1,5 +1,4 @@
 To check status for your project. Use : git status
-To check status with short message. Use : git status -s
 There are 4 stages : 
     1. Untracked
     2. Unmodified
@@ -34,4 +33,7 @@ If you want to see all commits that you made use : git log. In case you want to 
 To compare the modified file with tracked(added) file we need to use : git diff.
 To compare the last tracked(added) file with last commit use : git diff --staged.
 
+To check status with short message. Use : git status -s
+green M : file is modified in staging area.
+red M : file is modified in working directory.
 
