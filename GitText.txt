@@ -54,5 +54,12 @@ Branches :-
 To create a new branch use : git branch branchName
 To see all the created branch use : git branch
 To switch to a particular branch use : git checkout branchName
+To create a branch and switch to it directly use : git branch -b branchName
+To merge a branch to current branch use : git merge feature1
 
-
+GitHub :-
+To add variable named origin and pass your repository link to
+     it use : git remote add origin repositoryURL
+Now, If you want to remove this use : git remote rm origin
+To push changes to GitHub use : git push origin master  
+Note: Push changes to your repository for first time requires ssh key.
